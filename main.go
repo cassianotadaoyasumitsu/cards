@@ -8,6 +8,13 @@ func main() {
 	// hand.print()
 	// remainingCards.print()
 
+	// cards := newDeck()
+	// cards.saveToFile("my_cards")
+
+	// cards := newDeckFromFile("my_card")
+	// cards.print()
+
 	cards := newDeck()
-	cards.saveToFile("my_cards")
+	cards.shuffle()
+	cards.print()
 }
