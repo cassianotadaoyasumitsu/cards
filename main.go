@@ -1,5 +1,7 @@
 package main
 
+// go run cards
+
 func main() {
 	// cards := newDeck()
 
